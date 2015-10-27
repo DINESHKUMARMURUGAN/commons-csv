@@ -445,17 +445,6 @@ CSV files of various types.
       
       <build>
         <plugins>
-          <!-- Enable the compilation of the benchmarks -->
-          <plugin>
-            <artifactId>maven-compiler-plugin</artifactId>
-            <configuration combine.self="override">
-              <testIncludes>
-                <testInclude>**/*</testInclude>
-              </testIncludes>
-            </configuration>
-          </plugin>
-          
-          <!-- Hook the benchmarks to the test phase -->
           
         </plugins>
       </build>
